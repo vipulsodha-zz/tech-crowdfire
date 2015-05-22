@@ -13,4 +13,4 @@
   
 ```
 3. Run:
-  'npm test'
+  `npm test`
