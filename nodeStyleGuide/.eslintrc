@@ -43,7 +43,7 @@
          // Use Operators before line starts.
         "operator-linebreak": [
             2, 
-            "before"
+            "after"
         ],
         // No TODO, FIXME.
         "no-warning-comments": [
@@ -56,10 +56,10 @@
                     "location": "anywhere" 
             }
         ],
-        // Max nested callbacks 2.
+        // Max nested callbacks 3.
         "max-nested-callbacks": [
             2, 
-            2
+            3
         ],
         // First argument of callback should be err.
         "handle-callback-err": [
@@ -104,7 +104,11 @@
         "strict": [
             2,
             "global"
-        ]
+        ],
+        no-underscore-dangle: [
+            0
+        ],
+        no-shadow: 0
     },
     "ecmaFeatures": {
         "jsx": true
